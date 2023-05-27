@@ -1,0 +1,26 @@
+.menu{
+    background: #000099;
+    width: 200px;
+}
+.menu ul{
+    padding: 0 0px;
+}
+.menu ul li{
+    margin: 0 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 60px;
+    font-size: 20px;
+    width: 100%;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    background: red;
+    height: 100%;
+}

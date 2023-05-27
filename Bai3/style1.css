@@ -1,0 +1,22 @@
+.b3 {
+    margin: 50px;
+}
+
+.b3 h1 {
+    background: #FF9966;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    border-bottom: solid;
+    width: 500px;
+}
+
+.form {
+    border-collapse: collapse;
+    border-color: #CC0000;
+    border: 1px solid #990000;
+}
+
+th {
+    background: #FF6600;
+    color: #FFFFFF;
+}

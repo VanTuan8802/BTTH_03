@@ -1,0 +1,47 @@
+.item-menu{
+    margin: 0 0;
+    padding: 0 0;
+    background: #000099;
+    list-style: none;
+    line-height: 60px;
+    position: relative;
+    width: 200px;
+}
+.item-menu li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.item-menu li{
+    margin: 0 0;
+    text-align: center;
+    
+}
+.item-menu li:hover{
+    background: red;
+}
+.item-menu li:hover .menu2{
+    background-color: red;
+    display: block;
+}
+.menu2{
+    display: none;
+    position: absolute;
+    margin: 0 0;  
+    padding: 0 0;
+    background:red ;
+    list-style: none;  
+    margin-left: 200px;
+    top: 0;
+}
+.menu2 li{
+    margin: 0 0;
+    padding: 0 0;
+    width: 170px ;
+}
+.menu2 li a{
+    display: block;
+    margin: 0 0;
+    padding: 0 0;
+}

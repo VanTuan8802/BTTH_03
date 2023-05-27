@@ -1,0 +1,49 @@
+.item-menu{
+    margin: 0 0;
+    padding: 0 0;
+    height: 60px;
+    background: #000099;
+    list-style: none;
+    display: flex;
+    line-height: 60px;
+    position: relative;
+}
+.item-menu li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.item-menu li{
+    margin: 0 0;
+    width: 25%;
+    text-align: center;
+    
+}
+.item-menu li:hover{
+    background: red;
+}
+.item-menu li:hover .menu2{
+    background-color: red;
+    display: block;
+}
+.menu2{
+    display: none;
+    position: absolute;
+    margin: 0;  
+    background:red ;
+    list-style: none;
+    left: 0;
+    
+}
+.menu2 li{
+    float: left;
+    margin: 0 0;
+    padding: 0 0;
+    width: 200px ;
+}
+.menu2 li a{
+    display: block;
+    margin: 0 0;
+    padding: 0 0;
+}
